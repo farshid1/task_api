@@ -9,9 +9,9 @@ Sample Express application used for integrating with Clubhouse API
 1. Navigate to [http://localhost:3001/](http://localhost:3001/) to verify the express server is running
 
 ## Exercises
-1. Checkout Clubhouse API [documentation](https://clubhouse.io/api/rest/v3/)
-1. Fetch all the tasks for the project with id `13` in the `/tasks` endpoint
-1. Format the output to the following format and return the list to the client
+1. Make use of Clubhouse API's [documentation](https://clubhouse.io/api/rest/v3/)
+1. Fetch all the stories for the project with id `13` in the `/stories` endpoint
+1. The items in the list of stories must be in the following format:
 ```
 {
   assignee: 'Amy Wong',
